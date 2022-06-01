@@ -1,20 +1,26 @@
 PODS:
   - Flutter (1.0.0)
+  - flutter_keyboard_visibility (0.0.1):
+    - Flutter
   - vertical_scrollable_tabview (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
   - vertical_scrollable_tabview (from `.symlinks/plugins/vertical_scrollable_tabview/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  flutter_keyboard_visibility:
+    :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
   vertical_scrollable_tabview:
     :path: ".symlinks/plugins/vertical_scrollable_tabview/ios"
 
 SPEC CHECKSUMS:
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
   vertical_scrollable_tabview: 6e6f25411f226cc077ac4d915c8cd407a1317587
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c

@@ -105,7 +105,6 @@ class _UberEatsDemoState extends State<UberEatsDemo>
             //CategorySection(category: object as Category),
         ,
         slivers: [
-          //_buildSliverAppbar()
           SliverAppBar(
             brightness: Brightness.light,
               title: PreferredSize(
