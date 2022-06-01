@@ -1,7 +1,6 @@
 # screening_test
 
-This Flutter application is built according to the requirements of the Zumstart Screening Test. 
-Which is to implement a simple UI from a Youtube Video.
+This Flutter application is built according to the requirements of the Zumstart Screening Test, which is to implement a simple UI version from a Youtube Video demo.
 
 ## Demo Video
 This demo is captured on iOS Simulator iOS 15.5, iPhone SE (3rd Generation)
