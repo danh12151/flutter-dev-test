@@ -194,7 +194,7 @@ class _UberEatsDemoState extends State<UberEatsDemo>
     DishSection(title: "Sandwiches", dishes: [
       Dish(name: "Banh Mi Thit Nuong", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", price: 30000),
       Dish(name: "Banh Mi Op La", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", price: 20000),
-      Dish(name: "Banh Mi  Cha Lua", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", price: 25000),
+      Dish(name: "Banh Mi Cha Lua", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", price: 25000),
     ]),
     DishSection(title: "Desserts", dishes: [
       Dish(name: "Vanilla Ice Cream", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", price: 30000),
