@@ -4,7 +4,7 @@ This Flutter application is built according to the requirements of the Zumstart 
 Which is to implement a simple UI from a Youtube Video.
 
 ## Demo Video
-
+This demo is captured on iOS Simulator iOS 15.5, iPhone SE (3rd Generation)
 ![](https://github.com/danh1215/FlutterScreeningTest/blob/master/readme_gif/demo.gif)
 
 ## How to run this application
