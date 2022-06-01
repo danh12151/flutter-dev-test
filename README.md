@@ -9,7 +9,7 @@ Which is to implement a simple UI from a Youtube Video.
 
 ## How to run this application
 
-Prerequisite: Install Flutter SDK and Flutter plugin following this guide in ![Flutter Documentation](https://docs.flutter.dev/get-started/install)
+Prerequisite: Install Flutter SDK and Flutter plugin following this guide in [Flutter Documentation](https://docs.flutter.dev/get-started/install)
 
 1. Clone this repo from GitHub.
 2. Open the project in your preferred IDE (e.g. Android Studio, VS Code).
@@ -27,7 +27,7 @@ to get all the dependencies
 
 ## References used
 
-![To make the AppBar collapsed](https://youtu.be/s_3ak-4u43E)
-![To animate disappearing effect of AppBar title and TabBar](https://stackoverflow.com/a/61709995)
-![This plugin library](https://pub.dev/packages/vertical_scrollable_tabview)
+[To make the AppBar collapsed](https://youtu.be/s_3ak-4u43E)
+[To animate disappearing effect of AppBar title and TabBar](https://stackoverflow.com/a/61709995)
+[This plugin library](https://pub.dev/packages/vertical_scrollable_tabview)
 
