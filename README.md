@@ -26,7 +26,7 @@ flutter pub get
 
 ## Required dependencies
 - [rect_getter](https://pub.dev/packages/rect_getter) This library allows creating a global key for every rendered widget. It is used to provide specific index for every section, which is compatible to implement for tab bar indexes.
-- [scroll-to-index](https://pub.dev/packages/scroll_to_index) This library offer AutoScrollController to replace normal ScrollController. It has a `scrollToIndex` function, which is used for scroll to the section when tapping on tab bar.
+- [scroll-to-index](https://pub.dev/packages/scroll_to_index) This library offer `AutoScrollController` to replace normal `ScrollController`. It has a `scrollToIndex` function, which is used for scroll to the section when tapping on tab bar.
 - [intl](https://pub.dev/packages/intl) This library is used to format the price with commas separating the thousands.
 
 ## Notes
