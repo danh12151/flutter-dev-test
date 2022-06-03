@@ -27,12 +27,12 @@ flutter pub get
 ## Required dependencies
 - [rect_getter](https://pub.dev/packages/rect_getter) This library allows creating a global key for every rendered widget. It is used to provide specific index for every section, which is compatible to implement for tab bar indexes.
 - [scroll-to-index](https://pub.dev/packages/scroll_to_index) This library offer AutoScrollController to replace normal ScrollController. It has a `scrollToIndex` function, which is used for scroll to the section when tapping on tab bar.
-- 
+- [intl](https://pub.dev/packages/intl) This library is used to format the price with commas separating the thousands.
 
 ## Notes
 - I have never written unit testing in Flutter, but I will search for online tutorials and courses on Udemy or any learning platform to learn how to do it
 - I have researched a great deal and gained a lot more insights of about Flutter to implement the requirements, and had included all the sources that I used to implement this UI.
-- Old demo video:
+- Old demo video:  
 ![](https://github.com/danh1215/FlutterScreeningTest/blob/try_implement_customscrollview/readme_gif/demo.gif)
 
 ## Credits and references
