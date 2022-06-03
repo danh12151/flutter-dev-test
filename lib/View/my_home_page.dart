@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:screening_test/View/custom_scroll_view.dart';
+import 'package:screening_test/View/uber_eats_demo.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key? key, this.title}) : super(key: key);
@@ -22,7 +23,10 @@ class _MyHomePageState extends State<MyHomePage> {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => UberEatsDemo(title: "",)),
+              MaterialPageRoute(
+                  builder: (context) => DemoWithCustomScrollView()
+                  //builder: (context) => UberEatsDemo()
+              ),
             );
           },
           child: Text(

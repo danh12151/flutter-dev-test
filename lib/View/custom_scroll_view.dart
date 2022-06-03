@@ -5,15 +5,15 @@ import 'package:intl/intl.dart';
 import 'package:screening_test/View/ForSearchBarSliverDelegate.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 
-class UberEatsDemo extends StatefulWidget {
-  UberEatsDemo({Key? key, this.title}) : super(key: key);
+class DemoWithCustomScrollView extends StatefulWidget {
+  DemoWithCustomScrollView({Key? key, this.title}) : super(key: key);
   final String? title;
 
   @override
-  _UberEatsDemoState createState() => _UberEatsDemoState();
+  _DemoWithCustomScrollViewState createState() => _DemoWithCustomScrollViewState();
 }
 
-class _UberEatsDemoState extends State<UberEatsDemo>
+class _DemoWithCustomScrollViewState extends State<DemoWithCustomScrollView>
     with SingleTickerProviderStateMixin {
 
   late AutoScrollController _autoScrollController;
