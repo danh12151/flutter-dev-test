@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:rect_getter/rect_getter.dart';
 import 'package:screening_test/Model/dish.dart';
 import 'package:intl/intl.dart';
-import 'package:screening_test/View/ForSearchBarSliverDelegate.dart';
+import 'package:screening_test/View/search_bar_sliver.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 
 class DemoWithCustomScrollView extends StatefulWidget {
@@ -72,7 +72,6 @@ class _DemoWithCustomScrollViewState extends State<DemoWithCustomScrollView>
 
   @override
   void initState() {
-    // TODO: implement initState
     _autoScrollController = AutoScrollController();
     _tabController = new TabController(length: _data.length, vsync: this);
     super.initState();
@@ -80,7 +79,6 @@ class _DemoWithCustomScrollViewState extends State<DemoWithCustomScrollView>
 
   @override
   void dispose() {
-    // TODO: implement dispose
     _autoScrollController.dispose();
     _tabController.dispose();
     super.dispose();
@@ -91,14 +89,13 @@ class _DemoWithCustomScrollViewState extends State<DemoWithCustomScrollView>
   //   _tabController.animateTo(visibleItems[0]);
   //   return false;
   // }
-
+  ///Code from https://pub.dev/packages/vertical_scrollable_tabview package
   List<int> getVisibleItemsIndex() {
     // get ListView Rect
     Rect? rect = RectGetter.getRectFromKey(listViewKey);
     List<int> items = [];
     if (rect == null) return items;
 
-    /// TODO Horizontal ScrollDirection
     // bool isHorizontalScroll = widget._axisOrientation == Axis.horizontal;
     bool isHorizontalScroll = false;
     itemsKeys.forEach((index, key) {
@@ -129,13 +126,13 @@ class _DemoWithCustomScrollViewState extends State<DemoWithCustomScrollView>
     });
     return items;
   }
-
+  ///code from https://stackoverflow.com/a/61709995
   Future _scrollToIndex(int index) async {
     await _autoScrollController.scrollToIndex(index,
         preferPosition: AutoScrollPosition.begin);
     _autoScrollController.highlight(index);
   }
-
+  ///Code block to build AppBar
   Widget buildSliverAppBar() => SliverAppBar(
         backgroundColor: Colors.blueAccent,
         expandedHeight: 200,
@@ -175,6 +172,7 @@ class _DemoWithCustomScrollViewState extends State<DemoWithCustomScrollView>
                 .toList()),
       );
 
+  ///Code from https://pub.dev/packages/vertical_scrollable_tabview package
   Widget buildSliverListTile() => SliverList(
         delegate: SliverChildListDelegate(
           List.generate(_data.length, (index) {
@@ -184,6 +182,7 @@ class _DemoWithCustomScrollViewState extends State<DemoWithCustomScrollView>
         ),
       );
 
+  ///Code from https://pub.dev/packages/vertical_scrollable_tabview package
   Widget buildItem(int index) {
     dynamic category = _data[index];
     return Column(
@@ -202,7 +201,7 @@ class _DemoWithCustomScrollViewState extends State<DemoWithCustomScrollView>
       ],
     );
   }
-
+  /// Code to build menu section and dishes
   Widget buildCategoryAndDish(dynamic object, int index) => Column(
         children: <Widget>[
           Padding(
@@ -238,7 +237,7 @@ class _DemoWithCustomScrollViewState extends State<DemoWithCustomScrollView>
 
 
 
-  ///MARK: DATA
+  ///Mock data for the app
   final List<DishSection> _data = <DishSection>[
     DishSection(title: "Most Popular", dishes: [
       Dish(
