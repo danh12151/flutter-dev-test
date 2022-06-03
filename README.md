@@ -3,7 +3,7 @@
 This Flutter application is built according to the requirements of the Zumstart Screening Test, which is to implement a simple UI version from a Youtube Video demo.
 
 ## Demo Video
-This demo is captured on iOS Simulator iOS 15.5, iPhone SE (3rd Generation)
+This demo is captured on iOS Simulator iOS 15.5, iPhone SE (3rd Generation).
 ![](https://github.com/danh1215/FlutterScreeningTest/blob/master/demo.gif)
 
 
@@ -18,7 +18,7 @@ Prerequisite: Install Flutter SDK, Flutter plugin for IDE and an Android/iOS sim
 ```
 flutter doctor
 ```
-4. Run `flutter pub get` to get all the dependencies used 
+4. Run `flutter pub get` to get all the dependencies used.
 ```
 flutter pub get
 ```
@@ -30,12 +30,12 @@ flutter pub get
 - [intl](https://pub.dev/packages/intl) This library is used to format the price with commas separating the thousands.
 
 ## Notes
-- I have never written unit testing in Flutter, but I will search for online tutorials and courses on Udemy or any learning platform to learn how to do it
+- I have never written unit testing in Flutter, but I will search for online tutorials and courses on Udemy or any learning platform to learn how to do it.
 - I have researched a great deal and gained a lot more insights of about Flutter to implement the requirements, and had included all the sources that I used to implement this UI.
 - Old demo video:  
 ![](https://github.com/danh1215/FlutterScreeningTest/blob/try_implement_customscrollview/readme_gif/demo.gif)
 
-## Credits and references
+## Credits and references used
 
 - [To understand more about Flutter Slivers](https://www.raywenderlich.com/19539821-slivers-in-flutter-getting-started)
 - [To make collapsable AppBar](https://youtu.be/s_3ak-4u43E)
