@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:screening_test/Model/dish.dart';
-import 'package:scroll_to_index/scroll_to_index.dart';
-import 'package:vertical_scrollable_tabview/vertical_scrollable_tabview.dart';
 import 'package:intl/intl.dart';
+import '../ModifiedPackageFiles/modified_scroll_to_index.dart';
+import '../ModifiedPackageFiles/modified_vertical_scrollable_tabview.dart';
 
 class UberEatsDemo extends StatefulWidget {
   UberEatsDemo({Key? key, this.title}) : super(key: key);
