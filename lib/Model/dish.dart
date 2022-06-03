@@ -14,3 +14,4 @@ class DishSection{
 
   DishSection({required this.title,required this.dishes});
 }
+
