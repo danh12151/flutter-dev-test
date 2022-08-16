@@ -26,4 +26,4 @@ And also learn about SliverAppBar in this [Youtube Video](https://youtu.be/s_3ak
   I have never heard anything from them ever since. Tragedy. Oh well.
 </details>
 
-# Thanks for listen to my TED talk
+# Thanks for listening to my TED talk
