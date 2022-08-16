@@ -1,7 +1,7 @@
 # Flutter Practice
 
 Made this project because this email.
-![](/assets/images/image.png)  
+![](/assets/images/email.png)  
 
 ## The test
 The requirements of the test on the email.
