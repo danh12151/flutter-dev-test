@@ -8,6 +8,8 @@ The requirements of the test on the email.
 ![](/assets/images/test.png)  
 
 ## The Youtube link to reference
+
+Copy this https://www.youtube.com/watch?v=LrOR5QOCHBI or click link below:  
 [UI Study Series | Menu | Uber Eats](https://youtu.be/LrOR5QOCHBI)
 
 ## What I submitted
