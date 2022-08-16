@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=LrOR5QOCHBI
 ![](demo.gif)  
 
 ## How long did it take me
-One day
+One day (~8 hours)
 
 ## How did I do it
 Just copy this [vertical_scrollable_tabview](https://pub.dev/packages/vertical_scrollable_tabview) package.  
