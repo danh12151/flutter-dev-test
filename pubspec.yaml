@@ -30,6 +30,8 @@ dependencies:
   intl: ^0.17.0
   rect_getter: ^1.1.0
   scroll_to_index: ^3.0.1
+  provider: ^6.0.3
+
 
 dev_dependencies:
   flutter_test:

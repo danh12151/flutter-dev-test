@@ -11,7 +11,6 @@ class Dish {
 class DishSection{
   String title;
   List<Dish> dishes;
-
   DishSection({required this.title,required this.dishes});
 }
 
