@@ -14,7 +14,8 @@ The requirements of the test on the email.
 ![](demo.gif)  
 
 ## How I did it
-Just copy this [vertical_scrollable_tabview](https://pub.dev/packages/vertical_scrollable_tabview) package.
+Just copy this [vertical_scrollable_tabview](https://pub.dev/packages/vertical_scrollable_tabview) package.  
+And also learn about SliverAppBar in this [Youtube Video](https://youtu.be/s_3ak-4u43E).
 
 ## What ended up happening
 <details>
@@ -22,4 +23,4 @@ Just copy this [vertical_scrollable_tabview](https://pub.dev/packages/vertical_s
   They ghosted me. LMAO.
 </details>
 
-# Thanks for reading
+# Thanks for listen to my TED talk
