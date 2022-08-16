@@ -4,7 +4,7 @@ This Flutter application is built according to the requirements of the Zumstart 
 
 ## Demo Video
 This demo is captured on iOS Simulator iOS 15.5, iPhone SE (3rd Generation).
-![](https://github.com/danh1215/FlutterScreeningTest/blob/master/demo.gif)
+![](/demo.gif)
 
 
 
